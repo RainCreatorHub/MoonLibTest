@@ -1,0 +1,11 @@
+-- Sistema de verificação de Key
+local CorrectKey = "FREE_K9k995dh9543199kdgk0pp" -- sua chave correta
+
+if _G.Key == CorrectKey then
+    print("Chave correta! Carregando o script principal...")
+    
+    -- Carrega o script principal se a key estiver certa
+    loadstring(game:HttpGet(""))()
+else
+    warn("Chave incorreta! Acesso negado.")
+end
