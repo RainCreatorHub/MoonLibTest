@@ -1,0 +1,2 @@
+_G.Key = "PASSWORD" -- o usuário coloca a key aqui
+loadstring(game:HttpGet(""))()
