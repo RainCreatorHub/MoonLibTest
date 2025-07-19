@@ -1,2 +1,0 @@
-_G.Key = "PASSWORD" -- o usuário coloca a key aqui
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RainCreatorHub/Game-Test/refs/heads/main/Key%20System"))()
