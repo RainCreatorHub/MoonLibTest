@@ -1,4 +1,10 @@
-local Tab = require(script.Parent.Tab)
+urls.Owner = "https://raw.githubusercontent.com/RainCreatorHub/";
+urls.Repository = urls.Owner .. "MoonLibTest/refs/heads/main/";
+urls.Elements = urls.Repository .. "Elementos/";
+urls.Window = urls.Repository .. "Window/";
+urls.Init = urls.Repository .. "Init.lua";
+
+local Tab = urls.Window .."Tab.lua";
 
 local function MakeWindow(Info)
     local TweenService = game:GetService("TweenService")
